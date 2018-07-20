@@ -11,3 +11,5 @@ plugins/
 bower_components/ *
 www/bower_components/
 www/bower_components/ *
+www/fonts/roboto/
+www/fonts/roboto/*
