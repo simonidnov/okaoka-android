@@ -1,0 +1,89 @@
+
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" preserveAspectRatio="none" x="0px" y="0px" width="900px" height="400px" viewBox="0 0 900 400">
+<defs>
+<g id="dot_0_Layer0_0_FILL">
+<path fill="#FFFFFF" stroke="none" d="
+M 4.2 0.7
+Q 3.45 0 2.45 0 1.4 0 0.7 0.7 0 1.45 0 2.45 0 3.45 0.7 4.2 1.4 4.9 2.45 4.9 3.45 4.9 4.2 4.2 4.9 3.45 4.9 2.45 4.9 1.45 4.2 0.7 Z"/>
+</g>
+
+<g id="circle_center_build_0_Layer0_0_FILL">
+<path fill="#FFFFFF" stroke="none" d="
+M 5.35 -0.05
+Q 5.35 -2.25 3.75 -3.85 2.2 -5.4 0 -5.4 -2.2 -5.4 -3.8 -3.85 -5.35 -2.25 -5.35 -0.05 -5.35 2.2 -3.8 3.75 -2.2 5.35 0 5.35 2.2 5.35 3.75 3.75 5.35 2.2 5.35 -0.05 Z"/>
+</g>
+
+<path id="head_0_Layer0_0_1_STROKES" stroke="#FFFFFF" stroke-width="16" stroke-linejoin="miter" stroke-linecap="round" stroke-miterlimit="10" fill="none" d="
+M 20.054916381835938 40.720242309570324
+L -18.525564575195318 41.4136993408203
+Q -24.620657348632818 41.53077087402346 -29.09905700683592 37.242092895507824 -33.532925415039045 33.008340454101585 -33.644799804687494 26.863519287109398
+L -34.59461059570313 -25.61870117187499
+Q -34.71168212890623 -31.71379394531249 -30.423004150390625 -36.19219360351565 -26.089794921874983 -40.61566772460935 -19.999899291992193 -40.683010864257824
+L 18.536050415039057 -41.4313934326172
+Q 24.631143188476557 -41.5484649658203 29.109542846679688 -37.259786987304665 33.53821411132813 -32.97630615234374 33.65008850097658 -26.83148498535155
+L 34.60509643554687 25.601007080078148
+Q 34.71697082519532 31.745828247070335 30.433489990234392 36.17449951171875 26.199737548828125 40.608367919921875 20.054916381835938 40.720242309570324 Z"/>
+
+<path id="copie_walking_05_10_Layer4_0_1_STROKES" stroke="#FFFFFF" stroke-width="16" stroke-linejoin="miter" stroke-linecap="round" stroke-miterlimit="10" fill="none" d="
+M -26.95 75.55
+Q -4.4 64.9 1.9 38.2"/>
+
+<path id="copie_walking_05_10_Layer3_0_1_STROKES" stroke="#FFFFFF" stroke-width="16" stroke-linejoin="miter" stroke-linecap="round" stroke-miterlimit="10" fill="none" d="
+M -6.95 24.55
+Q 14.35 50.9 19.8 77.3"/>
+
+<path id="copie_walking_05_10_Layer2_0_1_STROKES" stroke="#FFFFFF" stroke-width="16" stroke-linejoin="miter" stroke-linecap="round" stroke-miterlimit="10" fill="none" d="
+M -38.3 26.25
+L 36.45 21.9"/>
+
+<path id="bar_build_2_0_Layer0_0_1_STROKES" stroke="#FFFFFF" stroke-width="7" stroke-linejoin="round" stroke-linecap="round" fill="none" d="
+M -45.05 0
+L 45.1 0"/>
+</defs>
+
+<g transform="matrix( 3.1725311279296875, 0, 0, 3.1725311279296875, 439.7,286.9) ">
+<g transform="matrix( 0.323974609375, 0, 0, 0.323974609375, -3.95,-32.8) ">
+<g transform="matrix( 0.9988555908203125, -0.0441436767578125, 0.0441436767578125, 0.9988555908203125, -8.05,-43.05) ">
+<g transform="matrix( 0.99456787109375, 0.10394287109375, -0.10394287109375, 0.99456787109375, -187.1,-419.75) ">
+<use xlink:href="#head_0_Layer0_0_1_STROKES" transform="matrix( 0.9945831298828125, -0.10394287109375, 0.10394287109375, 0.9945831298828125, 229.75,398.05) "/>
+</g>
+</g>
+
+<g transform="matrix( 1, 0, 0, 1, 0,0) ">
+<use xlink:href="#copie_walking_05_10_Layer4_0_1_STROKES"/>
+</g>
+
+<g transform="matrix( 1, 0, 0, 1, 0,0) ">
+<use xlink:href="#copie_walking_05_10_Layer3_0_1_STROKES"/>
+</g>
+
+<g transform="matrix( 1, 0, 0, 1, 0,0) ">
+<use xlink:href="#copie_walking_05_10_Layer2_0_1_STROKES"/>
+</g>
+
+<g transform="matrix( 3.0000152587890625, 0, 0, 3.0000152587890625, 52.6,23) ">
+<g transform="matrix( 1, 0, 0, 1, 0,0) ">
+<use xlink:href="#dot_0_Layer0_0_FILL"/>
+</g>
+</g>
+
+<g transform="matrix( 3.0000152587890625, 0, 0, 3.0000152587890625, 52.55,0.65) ">
+<g transform="matrix( 1, 0, 0, 1, 0,0) ">
+<use xlink:href="#dot_0_Layer0_0_FILL"/>
+</g>
+</g>
+</g>
+
+<g transform="matrix( 1, 0, 0, 1, 97.35,-6.95) ">
+<g transform="matrix( 1, 0, 0, 1, 0,0) ">
+<use xlink:href="#circle_center_build_0_Layer0_0_FILL"/>
+</g>
+</g>
+
+<g transform="matrix( 1, 0, 0, 1, 97.15,-15.8) ">
+<g transform="matrix( 1, 0, 0, 1, 0,0) ">
+<use xlink:href="#bar_build_2_0_Layer0_0_1_STROKES"/>
+</g>
+</g>
+</g>
+</svg>

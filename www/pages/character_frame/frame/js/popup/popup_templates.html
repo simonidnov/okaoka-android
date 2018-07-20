@@ -1,0 +1,122 @@
+<script type="text/template" id="popup_template">
+    <% if(typeof color !== "undefined"){ %>
+        <div class="popup" style="background-color:<%= color %>;">
+    <% }else{ %>
+        <div class="popup">
+    <% } %>
+    <% if(typeof illus !== "undefined"){ %>
+        <span class="icon-bubble_assets_cross popup_cross_close_button"></span>
+        <div class="illus <%= illus.color %>" style="background-image:url(<%= illus.picture %>)">
+        </div>
+    <% } %>
+    <% if(typeof motion !== "undefined"){ %>
+        <span class="icon-bubble_assets_cross popup_cross_close_button"></span>
+        <% if(typeof bkg !== "undefined"){ %>
+            <div class="illus motion <%= bkg %>">
+        <% }else{ %>
+            <div class="illus motion Sky">
+        <% } %>
+            <iframe src="img/assets/sprites/<%= motion %>.html"></iframe>
+        </div>
+    <% } %>
+    <% if(typeof diaporama !== "undefined"){ %>
+        <span class="icon-bubble_assets_cross popup_cross_close_button"></span>
+        <div class="popup_diaporama">
+            <div class="popup_diaporama_slider">
+                <% $.each(diaporama, function(index, diapo){ %>
+                    <div class="popup_diapo <%= diapo.color %>" style="left:<%= (100*index) %>%;">
+                        <img src="<%= diapo.picture %>"/>
+                    </div>
+                <% }); %>
+            </div>
+        </div>
+    <% } %>
+    <% if(typeof title !== "undefined"){ %>
+        <div class="title <% if(typeof color !== "undefined"){ %>white<% } %>"><%= title %></div>
+    <% } %>
+        <% if(typeof picture !== "undefined" && typeof motion === "undefined"){ %>
+            <div class="popup_picture" style="background-image:url(<%= picture %>);"></div>
+        <% } %>
+    <% if(typeof message !== "undefined" || typeof picker !== "undefined"){ %> 
+        <div class="message <% if(typeof color !== "undefined"){ %>white<% } %>" id="popup_message_wrapper">
+            <div class="message_scroller">
+                <%= message %>
+                <% if(typeof picker !== "undefined"){ %>
+                    <br/>
+                    <% for(var i=0; i<picker.choices.length; i++){ %>
+                        <img class="picker" src="<%= picker.choices[i].url %>" data-id="<%= picker.choices[i].id %>"/>
+                    <% } %>
+                <% } %>
+            </div>
+        </div>
+    <% } %>
+        <% if(typeof form !== "undefined"){ %>
+            <% if(form.length > 0){ %>
+                <div class="buttons formulaire" id="popup_form">
+                    <% for(var i=0; i<form.length; i++){ %>
+                        <% if(form[i].type === "checkbox"){ %>
+                            <div class="line compact">
+                                <div class="checkbox small left" id="<%= form[i].name %>">
+                                    <div class="inset"></div>
+                                </div>
+                                <div class="label left" data-for="<%= form[i].name %>">
+                                    <span>
+                                        <%= form[i].label %>
+                                    </span>
+                                </div>
+                            </div>
+                        <% } %>
+                        <% if(form[i].type === "email"){ %>
+                            <div class="line compact">
+                                <label class="edit" for="<%= form[i].name %>">
+                                    <span class="" data-lang=""><%= form[i].label %></span>
+                                </label>
+                                <input type="email" id="<%= form[i].name %>" class=""/>
+                            </div>
+                        <% } %>
+                        <% if(form[i].type === "text"){ %>
+                            <div class="line compact">
+                                <label class="edit" for="<%= form[i].name %>">
+                                    <span class="" data-lang=""><%= form[i].label %></span>
+                                </label>
+                                <input type="text" id="<%= form[i].name %>" class=""/>
+                            </div>
+                        <% } %>
+                        <% if(form[i].type === "textarea"){ %>
+                            <div class="line compact">
+                                <label class="edit" for="<%= form[i].name %>">
+                                    <span class="" data-lang=""><%= form[i].label %></span>
+                                </label>
+                                <textarea id="<%= form[i].name %>" class=""></textarea>
+                            </div>
+                        <% } %>
+                        <% if(form[i].type === "date"){ %>
+                            <div class="line compact">
+                                <label class="edit" for="<%= form[i].name %>">
+                                    <span class="" data-lang=""><%= form[i].label %></span>
+                                </label>
+                                <input type="date" id="<%= form[i].name %>" class=""/>
+                            </div>
+                        <% } %>
+                    <% } %>
+                </div>
+            <% } %> 
+        <% } %>
+        <% if(typeof buttons !== "undefined"){ %>
+            <% if(buttons.length > 0){ %>
+                <div class="buttons">
+                    <div class="content_center">
+                        <% for (var i=0; i<buttons.length; i++){ %>
+                            <div class="popup_button" style="width:<%= (100/buttons.length) %>%;" data-button="<%= i %>">
+                                <% if(typeof buttons[i].icon !== "undefined"){ %>
+                                    <span class="icon" style="background-image:url(<%= buttons[i].icon %>);"></span>
+                                <% } %>
+                                <div class="label" style="color:<%= buttons[i].color %>;"><%= buttons[i].label %></div>
+                            </div>
+                        <% } %>
+                    </div>
+                </div>
+            <% } %>
+        <% } %>
+    </div>
+</script>

@@ -1,0 +1,48 @@
+<script type="text/template" id="product_template_great">
+<%= JSON.stringify(datas) %>
+<%= JSON.stringify(products) %>
+</script>
+<script type="text/template" id="product_template">
+<div class="header" style="background-color:<%= datas.datas.bkcolor %>;">
+    <div class="product_preview" style="background-image:url(<%= products[0].preview %>);"></div>
+    <div class="item_preview" style="background-image:url(<%= encodeURI(app.pix_to_uri(datas.base64, "thumb")) %>);"></div>
+    <div class="ref">
+        <%= products[0].base_ref %><%= products[0].colors[0].base_ref %><%= products[0].colors[0].sizes[0].label %><%= datas.id %>
+    </div>
+</div>
+<div class="wrapper" id="product_detail_scroll_wrapper">
+    <div class="scroller">
+        <div class="label"><%= products[0].label %></div>
+        <div class="line colors">
+            <div class="small_title" style="color:<%= datas.datas.bkcolor %>;">Couleurs</div>
+            <ul class="color_picker">
+                <% for(var i=0; i<products[0].colors.length; i++){ %>
+                    <li class="color_item" data-ref="<%= products[0].colors[i].base_ref %>" data-color="<%= products[0].colors[i].label %>" style="background-color:<%= products[0].colors[i].code %>;"></li>
+                <% } %>
+            </ul>
+        </div>
+        <div class="line sizes">
+            <div class="small_title" style="color:<%= datas.datas.bkcolor %>;">Taille</div>
+            <ul class="size_picker">
+                <% for (var i=0; i<products[0].colors[0].sizes.length; i++){ %>
+                    <li class="size_item" data-ref="<%= products[0].colors[0].sizes[i].label %>" data-desc="<%= products[0].colors[0].sizes[i].description %>" data-color="<%= datas.datas.bkcolor %>" style="color:<%= datas.datas.bkcolor %>; border:2px solid <%= datas.datas.bkcolor %>;">
+                        <%= products[0].colors[0].sizes[i].label %>
+                    </li>
+                <% } %>
+            </ul>
+        </div>
+        <div class="line description" style="color:<%= datas.datas.bkcolor %>;">
+            <div class="small_title">Description</div>
+            <div class="description_text">   
+                <%= products[0].desciption %>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="price" style="color:<%= datas.datas.bkcolor %>;">
+    <%= products[0].price %><%= products[0].devise %>
+</div>
+<div class="valid_button" style="background-color:<%= datas.datas.bkcolor %>;">
+    AJOUTER AU PANIER
+</div>
+</script>

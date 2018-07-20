@@ -1,0 +1,16 @@
+{
+    "name":"product",
+    "script":"product_page",
+    "content":"product.html",
+    "dependencies":[
+        "product.js"
+    ],
+    "styles":[
+        "product.css"
+    ],
+    "templates":[
+        "pages/product/product_templates.html"
+    ],
+    "transition":"left",
+    "delayed":"0"
+}

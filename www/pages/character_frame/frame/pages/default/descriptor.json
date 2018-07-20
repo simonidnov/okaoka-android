@@ -1,0 +1,16 @@
+{
+    "name":"default",
+    "script":"default_page",
+    "content":"default.html",
+    "dependencies":[
+        "default.js"
+    ],
+    "styles":[
+        "default.css"
+    ],
+    "templates":[
+        "pages/default/default_templates.html"
+    ],
+    "transition":"fade",
+    "delayed":"0"
+}

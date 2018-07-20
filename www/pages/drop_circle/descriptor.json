@@ -1,0 +1,10 @@
+{
+    "label":"drop_circle",
+    "version":"0.0.0",
+    "color":"blue",
+    "dependencies":["drop_circle.js", "js/libs/matter.min.js", "js/libs/decomp.js"],
+    "styles":["drop_circle.css"],
+    "content":"drop_circle.html",
+    "script_name":"drop_circle",
+    "sounds":[]
+}

@@ -1,0 +1,63 @@
+
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" preserveAspectRatio="none" x="0px" y="0px" width="900px" height="400px" viewBox="0 0 900 400">
+<defs>
+<g id="okaokadotwhitecode_0_Layer0_0_FILL">
+<path fill="#FFFFFF" stroke="none" d="
+M 1.75 -1.75
+Q 1 -2.45 0 -2.45 -1.05 -2.45 -1.75 -1.75 -2.45 -1 -2.45 0 -2.45 1 -1.75 1.75 -1.05 2.45 0 2.45 1 2.45 1.75 1.75 2.45 1 2.45 0 2.45 -1 1.75 -1.75 Z"/>
+</g>
+
+<path id="oka_to_code_67_Layer5_0_1_STROKES" stroke="#FFFFFF" stroke-width="5" stroke-linejoin="miter" stroke-linecap="round" stroke-miterlimit="10" fill="none" d="
+M 4.6 -6.6
+L -5.9 -6.6
+Q -8.35 -6.6 -10.15 -8.35 -11.9 -10.1 -11.9 -12.6
+L -11.9 -27.75
+Q -11.9 -30.2 -10.15 -32 -8.35 -33.75 -5.9 -33.75
+L 4.6 -33.75
+Q 7.1 -33.75 8.85 -32 10.6 -30.2 10.6 -27.75
+L 10.6 -12.6
+Q 10.6 -10.1 8.85 -8.35 7.1 -6.6 4.6 -6.6 Z"/>
+
+<path id="oka_to_code_67_Layer4_0_1_STROKES" stroke="#FFFFFF" stroke-width="5" stroke-linejoin="miter" stroke-linecap="round" stroke-miterlimit="10" fill="none" d="
+M 42.5 -20.15
+L 23 -36.25"/>
+
+<path id="oka_to_code_67_Layer3_0_1_STROKES" stroke="#FFFFFF" stroke-width="5" stroke-linejoin="miter" stroke-linecap="round" stroke-miterlimit="10" fill="none" d="
+M 22.7 -3.9
+L 42.5 -20.15"/>
+
+<path id="oka_to_code_67_Layer2_0_1_STROKES" stroke="#FFFFFF" stroke-width="5" stroke-linejoin="round" stroke-linecap="round" fill="none" d="
+M -23.05 -36.3
+L -42.85 -20.05 -23.35 -3.95"/>
+</defs>
+
+<g transform="matrix( 3.1725311279296875, 0, 0, 3.1725311279296875, 439.7,286.9) ">
+<g transform="matrix( 1, 0, 0, 1, 0,0) ">
+<use xlink:href="#oka_to_code_67_Layer5_0_1_STROKES"/>
+</g>
+
+<g transform="matrix( 1, 0, 0, 1, 0,0) ">
+<use xlink:href="#oka_to_code_67_Layer4_0_1_STROKES"/>
+</g>
+
+<g transform="matrix( 1, 0, 0, 1, 0,0) ">
+<use xlink:href="#oka_to_code_67_Layer3_0_1_STROKES"/>
+</g>
+
+<g transform="matrix( 1, 0, 0, 1, 0,0) ">
+<use xlink:href="#oka_to_code_67_Layer2_0_1_STROKES"/>
+</g>
+
+<g transform="matrix( 1, 0, 0, 1, 3.2,-20.6) ">
+<g transform="matrix( 1, 0, 0, 1, 0,0) ">
+<use xlink:href="#okaokadotwhitecode_0_Layer0_0_FILL"/>
+</g>
+</g>
+
+<g transform="matrix( 1, 0, 0, 1, -4.4,-20.5) ">
+<g transform="matrix( 1, 0, 0, 1, 0,0) ">
+<use xlink:href="#okaokadotwhitecode_0_Layer0_0_FILL"/>
+</g>
+</g>
+</g>
+</svg>

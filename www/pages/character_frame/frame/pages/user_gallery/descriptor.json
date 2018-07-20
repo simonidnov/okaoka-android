@@ -1,0 +1,18 @@
+{
+    "name":"user_gallery",
+    "script":"user_gallery_page",
+    "content":"user_gallery.html",
+    "dependencies":[
+        "user_gallery.js",
+        "./pages/character/character.js"
+    ],
+    "styles":[
+        "user_gallery.css"
+    ],
+    "templates":[
+        "pages/user_gallery/user_gallery_templates.html"
+    ],
+    "transition":"fade",
+    "delayed":"0",
+    "ambiant":"ambiant_gallery"
+}

@@ -1,0 +1,16 @@
+{
+    "label":"unity",
+    "version":"0.0.0",
+    "color":"pink",
+    "dependencies":[ 
+        "unity.js",
+        "motion/intro_run/intro_run_motion.js",
+        "motion/running_motion_3.js"
+    ],
+    "motion":"running_motion_3",
+    "motion_sound":"run_intro",
+    "styles":["unity.css"],
+    "content":"unity.html",
+    "script_name":"unity",
+    "sounds":[]
+}

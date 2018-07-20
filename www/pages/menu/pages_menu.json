@@ -1,0 +1,74 @@
+{
+    "0":{
+        "01":{
+            "name":"drawing",
+            "color":"orange",
+            "description":"this is a unity webgl test",
+            "luminence":"0.10"
+        },
+        "02":{
+            "name":"basketball",
+            "color":"sblue",
+            "description":"this is a dics memory game",
+            "luminence":"0.08"
+        },
+        "03":{
+            "name":"number",
+            "color":"yellow",
+            "description":"this is a memory game",
+            "luminence":"0.10"
+        },
+        "04":{
+            "name":"endlessrunner",
+            "color":"pink",
+            "description":"this is a dics memory game",
+            "luminence":"0.08"
+        }
+    },
+    "1":{
+        "01":{
+            "name":"character_frame",
+            "color":"purple",
+            "description":"this is a drawing tool",
+            "luminence":"0.05"
+        },
+        "02":{
+            "name":"where",
+            "color":"yellow",
+            "description":"this is a dics memory game",
+            "luminence":"0.08"
+        },
+        "04":{
+            "name":"code2",
+            "color":"fblue",
+            "description":"this is a code game",
+            "luminence":"0.10"
+        },
+        "03":{
+            "name":"build_2",
+            "color":"green",
+            "description":"this is a runner game",
+            "luminence":"0.05"
+        }
+    },
+    "2":{
+        "01":{
+            "name":"maze",
+            "color":"purple",
+            "description":"this is a running motion game",
+            "luminence":"0.05"
+        },
+        "02":{
+            "name":"simplediscs",
+            "color":"sblue",
+            "description":"this is a discs game",
+            "luminence":"0.05"
+        },
+        "03":{
+            "name":"dots",
+            "color":"green",
+            "description":"this is a runner game",
+            "luminence":"0.05"
+        }
+    }
+}

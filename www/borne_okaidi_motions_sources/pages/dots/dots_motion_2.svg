@@ -1,0 +1,56 @@
+
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" preserveAspectRatio="none" x="0px" y="0px" width="900px" height="400px" viewBox="0 0 900 400">
+<defs>
+<g id="Layer4_0_FILL">
+<path fill="#FFFFFF" stroke="none" d="
+M 463.85 158.55
+Q 438.1 158.55 419.85 176.75 401.7 195 401.7 220.75 401.7 246.5 419.85 264.7 438.1 282.95 463.85 282.95 489.6 282.95 507.8 264.7 526.05 246.5 526.05 220.75 526.05 195 507.8 176.75 489.6 158.55 463.85 158.55 Z"/>
+</g>
+
+<g id="dots_intro_triangle_0_Layer0_0_FILL">
+<path fill="#FFFFFF" stroke="none" d="
+M 6.25 4.6
+L 0.25 -5.85 -6.25 4.6 6.25 4.6 Z"/>
+</g>
+
+<g id="dots_intro_rect_0_Layer0_0_FILL">
+<path fill="#FFFFFF" stroke="none" d="
+M 0 40
+L 40.05 0 0.05 -40 -40 0 0 40 Z"/>
+</g>
+
+<path id="Layer4_0_1_STROKES" stroke="#FFFFFF" stroke-width="15" stroke-linejoin="miter" stroke-linecap="round" stroke-miterlimit="3" fill="none" d="
+M 526.05 220.75
+Q 526.05 246.5 507.8 264.7 489.6 282.95 463.85 282.95 438.1 282.95 419.85 264.7 401.7 246.5 401.7 220.75 401.7 195 419.85 176.75 438.1 158.55 463.85 158.55 489.6 158.55 507.8 176.75 526.05 195 526.05 220.75 Z"/>
+
+<path id="dots_intro_triangle_0_Layer0_0_1_STROKES" stroke="#FFFFFF" stroke-width="2" stroke-linejoin="round" stroke-linecap="round" fill="none" d="
+M 0.25 -5.85
+L 6.25 4.6 -6.25 4.6 0.25 -5.85 Z"/>
+
+<path id="dots_intro_rect_0_Layer0_0_1_STROKES" stroke="#FFFFFF" stroke-width="20" stroke-linejoin="round" stroke-linecap="round" fill="none" d="
+M 0.05 -40
+L 40.05 0 0 40 -40 0 0.05 -40 Z"/>
+</defs>
+
+<g transform="matrix( 1, 0, 0, 1, 0,0) ">
+<use xlink:href="#Layer4_0_FILL"/>
+
+<use xlink:href="#Layer4_0_1_STROKES"/>
+</g>
+
+<g transform="matrix( 10.755218505859375, 0, 0, 10.755218505859375, 742.55,228.85) ">
+<g transform="matrix( 1, 0, 0, 1, 0,0) ">
+<use xlink:href="#dots_intro_triangle_0_Layer0_0_FILL"/>
+
+<use xlink:href="#dots_intro_triangle_0_Layer0_0_1_STROKES"/>
+</g>
+</g>
+
+<g transform="matrix( 1.46502685546875, 0, 0, 1.46502685546875, 190.2,219.3) ">
+<g transform="matrix( 1, 0, 0, 1, 0,0) ">
+<use xlink:href="#dots_intro_rect_0_Layer0_0_FILL"/>
+
+<use xlink:href="#dots_intro_rect_0_Layer0_0_1_STROKES"/>
+</g>
+</g>
+</svg>

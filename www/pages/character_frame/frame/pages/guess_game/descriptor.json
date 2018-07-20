@@ -1,0 +1,18 @@
+{
+    "name":"guess_game",
+    "script":"guess_game_page",
+    "content":"guess_game.html",
+    "delay":200,
+    "dependencies":[
+        "guess_game.js"
+    ],
+    "styles":[
+        "guess_game.css"
+    ],
+    "templates":[
+        "pages/guess_game/guess_game_templates.html"
+    ],
+    "transition":"left",
+    "delayed":"0",
+    "ambiant":""
+}

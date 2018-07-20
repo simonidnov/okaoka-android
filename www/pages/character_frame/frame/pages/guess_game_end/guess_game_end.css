@@ -1,0 +1,50 @@
+.guess_game_end{
+    
+}
+.guess_game_end .character_canvas{
+    height:100%;
+    width:100%;
+    position: relative;
+    float: left;
+    margin: 0;
+    padding: 0;
+}
+.guess_game_end .player{
+    height:50%;
+    width:100%;
+    position: relative;
+    float: left;
+    margin: 0;
+    padding: 0;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.guess_game_end .win_or_lose{
+    background-color: #FFFFFF;
+    height: 50px;
+    text-align: center;
+    width: 100%;
+    left:0;
+    top: 0;
+    bottom: 0;
+    right:0;
+    margin: auto;
+    
+    -webkit-transform: translate3d(0, 0, 0);
+    -moz-transform: translate3d(0, 0, 0);
+    -ms-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+    
+    transform: skew(0deg, -6deg) ;
+    -webkit-transform: skew(0deg, -6deg) ;
+    -moz-transform: skew(0deg, -6deg) ;
+    -o-transform: skew(0deg, -6deg) ;
+    -ms-transform: skew(0deg, -6deg) ;
+    
+    position: absolute;
+    font-size: 30px;
+    line-height: 50px;
+    font-weight: bold;
+    font-style: italic;
+}

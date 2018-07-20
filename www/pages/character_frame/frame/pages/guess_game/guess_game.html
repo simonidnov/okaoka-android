@@ -1,0 +1,65 @@
+<div class="play_card_container" id="play_card_container">
+    <div class="play_card" id="play_card">
+        <div class="front">
+            <div class="true_icon question_icon"></div>
+            <div class="true_icon response_icon"></div>
+            <div class="false_icon response_icon"></div>
+            <div class="icon"></div>
+            <div class="label"></div>
+            <div class="nav" id="show_response" style="display:none;">
+                <div class="center_content">
+                    <div class="card_button green" data-text="SHOW_RESPONSE"></div>
+                </div>
+            </div>
+            <div class="nav" id="select_response" style="display:none;">
+                <div class="center_content">
+                    <div class="card_button green" id="its_true" data-text="TRUE_RESPONSE"></div>
+                    <div class="card_button red" id="its_false" data-text="FALSE_RESPONSE"></div>
+                </div>
+            </div>
+            <div class="nav" id="continue_response" style="display:none;">
+                <div class="center_content">
+                    <div class="card_button green" data-text="CONTINUE_RESPONSE"></div>
+                </div>
+            </div>
+        </div>
+        <div class="back"></div>
+    </div>
+</div>
+<div class="guess_game">
+    <div class="guess_game_container">
+        <div class="game_screen" id="user_game_screen">
+            <div class="title_infos" data-text="YOUR_TURN">À toi de jouer</div>
+            <ul class="cards_items"></ul>
+            <div class="game_menu">
+                <div class="avatar"></div>
+                <div class="button_valid"></div>
+                <div class="button_propose"></div>
+                <div class="button_question"></div>
+            </div>
+        </div>
+        <div class="transition_screen">
+            <div class="center_avatar"></div>
+            <div class="text_infos">À toi de jouer</div>
+            <div class="tap_to_continue">
+                <img class="icon_small" src="images/assets/nav/subnav_tap.svg"/>
+                <div class="label" data-text="TAP_TO_CONTINUE">Touche l'écran pour continuer</div>
+            </div>
+        </div>
+        <div class="game_screen" id="opponent_game_screen">
+            <div class="title_infos" data-text="OPENENT_TITLE">Adversaire</div>
+            <ul class="cards_items"></ul>
+            <div class="game_menu">
+                <div class="avatar"></div>
+            </div>
+        </div>
+    </div>
+    <div class="guess_questions">
+        <div class="title_infos" data-text="CHOOSE_QUESTION">Choisis une question</div>
+        <div class="question_wrapper" id="user_question_wrapper">
+            <div class="question_scroller">
+                
+            </div>
+        </div>
+    </div>
+</div>

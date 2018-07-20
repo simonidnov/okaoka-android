@@ -1,0 +1,18 @@
+{
+  "name": "canvas2svg",
+  "main": "canvas2svg.js",
+  "version": "0.0.1",
+  "homepage": "https://github.com/moneybird/canvas2svg",
+  "authors": [
+    "Elian Krosse <elian@moneybird.com>"
+  ],
+  "keywords": [
+    "canvas",
+    "svg"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "jasmine-tests"
+  ]
+}

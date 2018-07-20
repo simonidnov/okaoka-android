@@ -1,0 +1,19 @@
+{
+    "name":"home",
+    "script":"home_page",
+    "content":"home.html",
+    "dependencies":[
+        "home.js",
+        "hero_eyes/hero_eyes.js",
+        "intro_motion/character_button_create.js"
+    ],
+    "styles":[
+        "home.css"
+    ],
+    "templates":[
+        "pages/home/home_templates.html"
+    ],
+    "transition":"fade",
+    "delayed":"0",
+    "ambiant":"ambiant_gallery"
+}

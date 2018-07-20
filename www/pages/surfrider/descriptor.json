@@ -1,0 +1,12 @@
+{
+    "label":"surfrider",
+    "version":"0.0.0",
+    "color":"sblue",
+    "dependencies":["surfrider.js", "../../motions/winning_dance_top_motion.js", "motion/surfrider_motion.js", "motion/surfrider_tuto_popup_motion.js", "../../motions/assets/count_3.js"],
+    "styles":["surfrider.css"],
+    "content":"surfrider.html",
+    "script_name":"surfrider",
+    "motion":"surfrider_motion",
+    "sounds":[
+    ]
+}

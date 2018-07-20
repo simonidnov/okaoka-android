@@ -1,0 +1,186 @@
+<div class="home_fifty_button" id="girl_button" data-navigate="character/type/1" data-transition="right">
+    <div class="icon">
+        <img src="images/assets/nav/nav_buttons_girl_button_white.svg"/>
+    </div>
+    <div class="label" data-text="GIRL">Fille</div>
+</div>
+<div class="home_fifty_button" id="boy_button" data-navigate="character/type/2" data-transition="right">
+    <div class="icon">
+        <img src="images/assets/nav/nav_buttons_boy_button_white.svg"/>
+    </div>
+    <div class="label" data-text="BOY">GARÇON</div>
+</div>
+
+
+<div class="home_fifty_button" id="gallery_button" data-navigate="user_gallery" data-transition="left">
+    <div class="icon">
+        <img src="images/assets/nav/nav_buttons_boy_button_white.svg"/>
+    </div>
+    <div class="label" data-text="GALLERY">galerie</div>
+</div>
+<div class="home_fifty_button" id="world_gallery_button" data-navigate="gallery" data-transition="left">
+    <div class="icon">
+        <img src="pages/home/images/world_characters.png"/>
+    </div>
+    <div class="label" data-text="WORLD_GALLERY">Découvrir</div>
+</div>
+
+
+<div class="home" id="home_scroll_wrapper">
+    <div class="home_hero">
+        <div class="hero_eyes">
+            <canvas id="hero_eyes_canvas"></canvas>
+        </div>
+        <div class="hero_mouth">
+            <div class="hero_tooth top"></div>
+            <div class="play_screen">
+                <div class="play_subscreen">
+                    <div class="home_big_button" id="play_button" style="margin-top:40px;">
+                        <div class="icon" class="play_icon">
+                            <img src="images/assets/nav/nav_buttons_play_icon_white.svg"/>
+                        </div>
+                        <div class="label" data-text="PLAY_BUTTON">JOUER</div>
+                    </div>
+                </div>
+                <div class="play_subscreen" id="play_gameplay">
+                    <div class="title" data-text="GAME_RULES">règles du jeu</div>
+                    <div class="rules_wrapper" id="rules_wrapper">
+                        <div class="rules_slider" id="rules_slider">
+                            <div class="item">
+                                <div class="item_illus" style="background-image:url(images/assets/nav/nav_buttons_rules_slide_01.svg);"></div>
+                                <div class="description" data-text="PLAY_RULES_SLIDE_01">CHOISIS TON HÉROS<br/>PARMI les SEIZE<br>PERSONNAGES PROPOSÉS.</div>
+                            </div>
+                            <div class="item">
+                                <div class="item_illus" style="background-image:url(images/assets/nav/nav_buttons_rules_slide_02.svg);"></div>
+                                <div class="description" data-text="PLAY_RULES_SLIDE_02">LE BUT DU JEU EST DE TROUVER<br/>QUI EST TON ADVERSAIRE.</div>
+                            </div>
+                            <div class="item">
+                                <div class="item_illus" style="background-image:url(images/assets/nav/nav_buttons_rules_slide_03.svg);"></div>
+                                <div class="description" data-text="PLAY_RULES_SLIDE_03">CLIQUE SUR CE BOUTON POUR<br/>POSER DES QUESTIONS<br/>ET ÉLIMINER DES CANDIDATS.</div>
+                            </div>
+                            <div class="item">
+                                <div class="item_illus" style="background-image:url(images/assets/nav/nav_buttons_propose_button.svg);"></div>
+                                <div class="description" data-text="PLAY_RULES_SLIDE_04">LORSQUE TU PENSES AVOIR TROUVÉ,<br/>CLIQUE SUR CE BOUTON POUR<br/>PROPOSER UNE RÉPONSE.</div>
+                            </div>
+                            <div class="item">
+                                <div class="item_illus" style="background-image:url(images/assets/nav/nav_buttons_rules_slide_05.svg);"></div>
+                                <div class="description" data-text="PLAY_RULES_SLIDE_05">POUR GAGNER,<br>IL FAUT TROUVER QUI EST<br>TON ADVERSAIRE EN PREMIER !</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="slider_dots" id="rules_dots">
+                        <ul>
+                            <li class="selected"></li>
+                            <li></li>
+                            <li></li>
+                            <li></li>
+                            <li></li>
+                        </ul>
+                    </div>
+                    <div class="line">
+                        <div class="home_big_button" id="play_next_button">
+                            <div class="icon" class="play_icon">
+                                <img src="images/assets/nav/nav_buttons_big_check_white.svg"/>
+                            </div>
+                            <div class="label" data-text="OK_BUTTON">OK</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="play_subscreen" id="play_settings">
+                    <div class="title" data-text="GAME_LANG">langue du jeu :</div>
+                    <div class="lang_picker">
+                        <ul>
+                            <li class="flag_item selected" data-locale="fr-FR">
+                                <div class="selector" style="background-image: url(images/assets/nav/nav_buttons_rules_slide_04.svg);"></div>
+                                <div class="flag">
+                                    <img src="images/assets/nav/nav_buttons_french_flag.svg"/>
+                                </div>
+                                <div class="label">Français</div>
+                            </li>
+                            <li class="flag_item" data-locale="en-US">
+                                <div class="selector" style="background-image: url(images/assets/nav/nav_buttons_rules_slide_04.svg);"></div>
+                                <div class="flag">
+                                    <img src="images/assets/nav/nav_buttons_english_flag.svg"/>
+                                </div>
+                                <div class="label">English</div>
+                            </li>
+                            <li class="flag_item" data-locale="de-DE">
+                                <div class="selector" style="background-image: url(images/assets/nav/nav_buttons_rules_slide_04.svg);"></div>
+                                <div class="flag">
+                                    <img src="images/assets/nav/nav_buttons_deutsch_flag.svg"/>
+                                </div>
+                                <div class="label">Deutsch</div>
+                            </li>
+                            <li class="flag_item" data-locale="es_ES">
+                                <div class="selector" style="background-image: url(images/assets/nav/nav_buttons_rules_slide_04.svg);"></div>
+                                <div class="flag">
+                                    <img src="images/assets/nav/nav_buttons_spanish_flag.svg"/>
+                                </div>
+                                <div class="label">Española</div>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="title" data-text="GAME_CHARACTER">Votre personnage :</div>
+                    <div class="character_slider" id="character_wrapper">
+                        <ul id="character_slider">
+                            
+                        </ul>
+                    </div>
+                    <div class="slider_dots small" id="character_dots">
+                        <ul>
+                            <li class="selected"></li>
+                            <li></li>
+                            <li></li>
+                            <li></li>
+                            <li></li>
+                            <li></li>
+                            <li></li>
+                            <li></li>
+                            <li></li>
+                            <li></li>
+                            <li></li>
+                            <li></li>
+                            <li></li>
+                            <li></li>
+                            <li></li>
+                            <li></li>
+                        </ul>
+                    </div>
+                    <div class="line">
+                        <div class="home_big_button" id="play_config_button">
+                            <div class="icon" class="play_icon">
+                                <img src="images/assets/nav/nav_buttons_play_icon_white.svg"/>
+                            </div>
+                            <div class="label" data-text="PLAY_BUTTON">JOUER</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="play_subscreen" id="play_settings">LAST SCREEN UNTIL FOR THE MOMENT</div>
+            </div>
+            <div class="hero_tooth bottom"></div>
+        </div>
+        <div class="hero_subnav" id="user_creator_nav">
+            <div class="column" id="create_column" id="column_create">
+                <div class="illustration" style="background-image:url(images/assets/nav/builder_button.svg);"></div>
+                <div class="line">
+                    <div class="column_bottom_button">
+                        <div class="label" data-text="CREATE_BUTTON">CRÉER</div>
+                    </div>
+                </div>
+            </div>
+            <div class="column" id="gallery_column" data-navigate="user_gallery/mode/private" data-transition="left">
+                <div class="illustration">
+                    <div class="hero_character" id="char_01" style="background-color:#3E97D0;"></div>
+                    <div class="hero_character" id="char_02" style="background-color:#50B86E;"></div>
+                    <div class="hero_character" id="char_03" style="background-color:#EEC434;"></div>
+                    <div class="hero_character" id="char_04" style="background-color:#F19D32;"></div>
+                </div>
+                <div class="line">
+                    <div class="column_bottom_button">
+                        <div class="label" data-text="GALLERY_BUTTON">GALERIE</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,64 @@
+<script type="text/template" id="user_gallery_template">
+    <li class="avatar_list" id="character_<%= id %>" data-id="<%= id %>" data-pix="<%= encodeURI(app.pix_to_uri(base64, "thumb")) %>">
+        <div class="user_gallery_avatar">
+            <div class="avatar_ground" style="background-color:<%= datas.bkcolor %>;"></div>
+            <div class="avatar_pix" style="background-image:url(<%= encodeURI(app.pix_to_uri(base64, "thumb")) %>);"></div>
+        </div>
+        <div class="label"><%= label %></div>
+    </li>
+</script>
+<script type="text/template" id="options_tab_template">
+    <div class="show_tab option_tab">
+        <div class="tab thirt" id="edit_button">
+            <object width="100%" height="auto" data="images/assets/nav/nav_buttons_edit_button.svg" type="image/svg+xml"></object>
+            <div class="label">ÉDITER</div>
+            <div class="hitzone"></div>
+        </div>
+        <div class="tab thirt" id="share_button">
+            <object width="100%" height="auto" data="images/assets/nav/nav_buttons_share.svg" type="image/svg+xml"></object>
+            <div class="label">PARTAGER</div>
+            <div class="hitzone"></div>
+        </div>
+        <div class="tab thirt" id="shop_button">
+            <object width="100%" height="auto" data="images/assets/nav/nav_buttons_add_shoplist.svg" type="image/svg+xml"></object>
+            <div class="label">+ PANIER</div>
+            <div class="hitzone"></div>
+        </div>
+    </div>
+</script>
+<script type="text/template" id="motions_tab_template">
+    <div class="show_tab motion_tab">
+        <div class="tab forty" data-motion="hello">
+            <object width="100%" height="auto" data="images/assets/nav/nav_buttons_motion_hi.svg" type="image/svg+xml"></object>
+            <div class="hitzone"></div>
+        </div>
+        <div class="tab forty" data-motion="love">
+            <object width="100%" height="auto" data="images/assets/nav/nav_buttons_motion_love.svg" type="image/svg+xml"></object>
+            <div class="hitzone"></div>
+        </div>
+        <div class="tab forty" data-motion="sleep">
+            <object width="100%" height="auto" data="images/assets/nav/nav_buttons_motion_sleep.svg" type="image/svg+xml"></object>
+            <div class="hitzone"></div>
+        </div>
+        <div class="tab forty" data-motion="smile">
+            <object width="100%" height="auto" data="images/assets/nav/nav_buttons_motion_smile.svg" type="image/svg+xml"></object>
+            <div class="hitzone"></div>
+        </div>
+        <div class="tab forty" data-motion="win">
+            <object width="100%" height="auto" data="images/assets/nav/nav_buttons_motion_win.svg" type="image/svg+xml"></object>
+            <div class="hitzone"></div>
+        </div>
+        <div class="tab forty" data-motion="dance">
+            <object width="100%" height="auto" data="images/assets/nav/nav_buttons_motion_dance.svg" type="image/svg+xml"></object>
+            <div class="hitzone"></div>
+        </div>
+        <div class="tab forty" data-motion="fail">
+            <object width="100%" height="auto" data="images/assets/nav/nav_buttons_motion_fail.svg" type="image/svg+xml"></object>
+            <div class="hitzone"></div>
+        </div>
+        <div class="tab forty" data-motion="robot">
+            <object width="100%" height="auto" data="images/assets/nav/nav_buttons_motion_robot.svg" type="image/svg+xml"></object>
+            <div class="hitzone"></div>
+        </div>
+    </div>
+</script>

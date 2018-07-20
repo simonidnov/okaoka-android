@@ -1,0 +1,10 @@
+platform/
+hooks/
+node_modules/
+plugins/y
+res/
+src/bower_components/
+.DS_Store
+.DS_Store *
+platforms/
+plugins/

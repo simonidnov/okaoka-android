@@ -1,0 +1,23 @@
+<script type="text/template" id="gallery_template">
+    <li class="gallery_list" id="character_<%= id %>" data-id="<%= id %>" data-pix="<%= encodeURI(app.pix_to_uri(base64, "thumb")) %>">
+        <div class="gallery_pix_preview" style="background-image:url(<%= encodeURI(app.pix_to_uri(base64, "thumb")) %>) "></div>
+        <div class="label"><%= label %></div>
+    </li>
+</script>
+<script type="text/template" id="gallery_card_template">
+    <div class="gallery_card" id="card_<%= id %>">
+        <div class="card_pix" style="background-color:#FFFFFF; background-image:url(<%= encodeURI(app.pix_to_uri(base64, "thumb")) %>)"></div>
+        <div class="card_label" style="background-color:#FFFFFF;"><%= label %></div>
+        <div class="card_nav">
+            <div class="card_button like" data-cardaction="like" data-id="<%= id %>">
+                <img src="./images/assets/nav/subnav_like.svg"/>
+            </div>
+            <div class="card_button favorite" data-cardaction="favorite" data-id="<%= id %>">
+                <img src="./images/assets/nav/subnav_favorite.svg"/>
+            </div>
+            <div class="card_button next" data-cardaction="next" data-id="<%= id %>">
+                <img src="./images/assets/nav/subnav_next.svg"/>
+            </div>
+        </div>
+    </div>
+</script>

@@ -1,0 +1,16 @@
+{
+    "name":"share",
+    "script":"share_page",
+    "content":"share.html",
+    "dependencies":[
+        "share.min.js"
+    ],
+    "styles":[
+        "share.min.css"
+    ],
+    "templates":[
+        "pages/share/share_templates.html"
+    ],
+    "transition":"left",
+    "delayed":"0"
+}

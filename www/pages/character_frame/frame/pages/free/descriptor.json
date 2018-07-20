@@ -1,0 +1,14 @@
+{
+    "name":"free",
+    "script":"free",
+    "content":"free.html",
+    "dependencies":[
+        "free.js"
+    ],
+    "styles":[
+        "free.css"
+    ],
+    "templates":[],
+    "transition":"fade",
+    "delayed":"0"
+}

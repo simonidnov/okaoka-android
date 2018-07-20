@@ -1,0 +1,16 @@
+{
+    "name":"shop",
+    "script":"shop_page",
+    "content":"shop.html",
+    "dependencies":[
+        "shop.js"
+    ],
+    "styles":[
+        "shop.css"
+    ],
+    "templates":[
+        "pages/shop/shop_templates.html"
+    ],
+    "transition":"fade",
+    "delayed":"0"
+}

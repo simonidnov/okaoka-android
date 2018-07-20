@@ -1,0 +1,82 @@
+html, body, iframe {  
+    margin: 0;
+    padding: 0;
+    border: none;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    font-family: helvetica;
+}
+.app_content{
+    width:100%;
+    height:100%;
+    position:absolute;
+    color:#FFF;
+    overflow: hidden;
+    
+    transform: translate3d(0,0,0);
+    -webkit-transform: translate3d(0,0,0);
+    -moz-transform: translate3d(0,0,0);
+    -o-transform: translate3d(0,0,0);
+    -ms-transform: translate3d(0,0,0);
+}
+.scroller{
+    width:100% !important;   
+}
+.draggable{
+    width:200px;
+    height:200px;
+    background:#333;
+    position: absolute;
+}
+
+.left_nav{
+    position: absolute;
+    z-index: 999999;
+    left:0;
+    top:0;
+}
+.right_nav{
+    position: absolute;
+    z-index: 999999;
+    right:0;
+    top:0;
+}
+.button{
+    width:100px;
+    height:100px;
+    color:#FFF;
+    font-size: 80px;
+    line-height: 100px;
+    text-align: center;
+    cursor:pointer;
+    overflow: hidden;
+}
+#switchbutton{
+    width:50px;
+    height:50px;
+}
+.dot_pos{
+    width:200px;
+    height:200px;
+    background-color:rgba(0,0,0,.5);
+    position: absolute;
+    -webkit-border-radius: 100%;
+    -moz-border-radius: 100%;
+    border-radius: 100%;
+}
+.intro_motion{
+    position: absolute;
+    margin: auto;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    top: 0;
+    width: 900px;
+    height: 400px;
+    transform: translate3d(0,0,0);
+    -webkit-transform: translate3d(0,0,0);
+    -moz-transform: translate3d(0,0,0);
+    -o-transform: translate3d(0,0,0);
+    -ms-transform: translate3d(0,0,0);
+}

@@ -1,0 +1,14 @@
+{
+    "app_short_name":"FabLab",
+    "app_name":"FabLab IdKids act for kids NSE 2016",
+    "app_version":"0.0.1",
+    "app_description":"application ludique de conception d'objets vectoriels SVG pour le salon NSE 2016",
+    "app_icons":{
+        "48":"",
+        "57":"",
+        "101":"",
+        "1024":""
+    },
+    "app_default_controller":"home",
+    "app_author":"Simon Delamarre, Idnovant, Idkids, act for kids"
+}

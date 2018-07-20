@@ -1,0 +1,33 @@
+{
+    "name":"character",
+    "script":"character",
+    "content":"character.html",
+    "delay":3000,
+    "dependencies":[
+        "character.js"
+    ],
+    "styles":[
+        "character.min.css"
+    ],
+    "transition":"instant",
+    "delayed":"0",
+    "params":{
+        "touch_enabled":true,
+        "canvas":"character_canvas"
+    },
+    "navigation":{
+        "left":[
+            {
+                "icon":"/images/assets/home.svg",
+                "page":"home"
+            }
+        ],
+        "right":[
+            {
+                "icon":"/images/assets/next.svg",
+                "page":"save"
+            }
+        ]
+    },
+    "ambiant":"ambiant_fab"
+}

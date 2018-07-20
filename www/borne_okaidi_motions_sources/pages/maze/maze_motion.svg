@@ -1,0 +1,63 @@
+
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" preserveAspectRatio="none" x="0px" y="0px" width="900px" height="400px" viewBox="0 0 900 400">
+<defs>
+<g id="dot_0_Layer0_0_FILL">
+<path fill="#FFFFFF" stroke="none" d="
+M 1.75 -1.75
+Q 1 -2.45 0 -2.45 -1.05 -2.45 -1.75 -1.75 -2.45 -1 -2.45 0 -2.45 1 -1.75 1.75 -1.05 2.45 0 2.45 1 2.45 1.75 1.75 2.45 1 2.45 0 2.45 -1 1.75 -1.75 Z"/>
+</g>
+
+<path id="Layer5_0_1_STROKES" stroke="#FFFFFF" stroke-width="5" stroke-linejoin="miter" stroke-linecap="round" stroke-miterlimit="10" fill="none" d="
+M 13.55 1.6
+L -13.35 1.6
+Q -19.65 1.6 -24.25 -2.25 -28.7 -6.15 -28.7 -11.65
+L -28.7 -45.05
+Q -28.7 -50.45 -24.25 -54.45 -19.65 -58.3 -13.35 -58.3
+L 13.55 -58.3
+Q 19.95 -58.3 24.4 -54.45 28.9 -50.45 28.9 -45.05
+L 28.9 -11.65
+Q 28.9 -6.15 24.4 -2.25 19.95 1.6 13.55 1.6 Z"/>
+
+<path id="Layer4_0_1_STROKES" stroke="#FFFFFF" stroke-width="5" stroke-linejoin="miter" stroke-linecap="round" stroke-miterlimit="10" fill="none" d="
+M 9.4 -18.6
+L 28.9 -18.6"/>
+
+<path id="Layer3_0_1_STROKES" stroke="#FFFFFF" stroke-width="5" stroke-linejoin="miter" stroke-linecap="round" stroke-miterlimit="10" fill="none" d="
+M -8.95 -18.05
+L -8.95 -35.55"/>
+
+<path id="Layer2_0_1_STROKES" stroke="#FFFFFF" stroke-width="5" stroke-linejoin="miter" stroke-linecap="round" stroke-miterlimit="10" fill="none" d="
+M -28.7 -35.55
+L 12.05 -35.55"/>
+</defs>
+
+<g transform="matrix( 3.1725311279296875, 0, 0, 3.1725311279296875, 439.7,286.9) ">
+<g transform="matrix( 1, 0, 0, 1, 0,0) ">
+<use xlink:href="#Layer5_0_1_STROKES"/>
+</g>
+
+<g transform="matrix( 1, 0, 0, 1, 0,0) ">
+<use xlink:href="#Layer4_0_1_STROKES"/>
+</g>
+
+<g transform="matrix( 1, 0, 0, 1, 0,0) ">
+<use xlink:href="#Layer3_0_1_STROKES"/>
+</g>
+
+<g transform="matrix( 1, 0, 0, 1, 0,0) ">
+<use xlink:href="#Layer2_0_1_STROKES"/>
+</g>
+
+<g transform="matrix( 1, 0, 0, 1, 18.4,-9.2) ">
+<g transform="matrix( 1, 0, 0, 1, 0,0) ">
+<use xlink:href="#dot_0_Layer0_0_FILL"/>
+</g>
+</g>
+
+<g transform="matrix( 1, 0, 0, 1, 6.85,-9.1) ">
+<g transform="matrix( 1, 0, 0, 1, 0,0) ">
+<use xlink:href="#dot_0_Layer0_0_FILL"/>
+</g>
+</g>
+</g>
+</svg>

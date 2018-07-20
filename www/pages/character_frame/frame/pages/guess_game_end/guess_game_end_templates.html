@@ -1,0 +1,15 @@
+<script type="text/template" id="player_card_template">
+    <li class="card" data-id="<%= id %>">
+        <div class="front_card" style="background-color:<%= parsed_datas.bkcolor %>;">
+            <div class="picture" style="background-image:url(<%= encodeURI(app.pix_to_uri(base64, "thumb")) %>)"></div>
+            <span class="name"><%= label %></span>
+        </div>
+        <div class="back_card"></div>
+    </li>
+</script>
+<script type="text/template" id="question_template">
+    <div class="question" id="<%= question_id %>" data-question="<%= question_id %>">
+        <div class="question_icon" style="background-image:url(<%= icon %>)"></div>
+        <div class="question_label"><%= label %></div>
+    </div>
+</script>

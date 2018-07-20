@@ -1,0 +1,26 @@
+{
+    "label":"code",
+    "version":"0.0.1",
+    "color":"blue",
+    "dependencies":[
+      "code.js",
+      "assets/code_library.js",
+      "motion/code_motion.js",
+      "ndgmr.Collision.js",
+      "assets/code_tutorial_motion.js"
+    ],
+    "styles":["code.css"],
+    "content":"code.html",
+    "script_name":"code",
+    "motion":"code_motion",
+    "motion_sound":"",
+    "sounds":[
+        {"label":"code_drag", "file":"./sounds/draw_hit.ogg"},
+        {"label":"code_drop", "file":"./sounds/number_hit.ogg"},
+        {"label":"code_win", "file":"./sounds/number_win.ogg"},
+        {"label":"code_lose", "file":"./sounds/number_fail.ogg"},
+        {"label":"code_player", "file":"./sounds/disc_drop.ogg"},
+        {"label":"code_move", "file":"./sounds/draw_hit.ogg"},
+        {"label":"code_brick", "file":"./sounds/draw_hit_old.ogg"}
+    ]
+}

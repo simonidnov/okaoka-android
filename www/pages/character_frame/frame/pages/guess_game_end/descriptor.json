@@ -1,0 +1,18 @@
+{
+    "name":"guess_game_end",
+    "script":"guess_game_end_page",
+    "content":"guess_game_end.html",
+    "delay":2500,
+    "dependencies":[
+        "guess_game_end.js",
+        "./pages/character/character.js"
+    ],
+    "styles":[
+        "guess_game_end.css"
+    ],
+    "templates":[
+        "pages/guess_game/guess_game_templates.html"
+    ],
+    "transition":"left",
+    "ambiant":"ambiant_game"
+}

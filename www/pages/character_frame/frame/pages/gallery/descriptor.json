@@ -1,0 +1,18 @@
+{
+    "name":"gallery",
+    "script":"gallery_page",
+    "content":"gallery.html",
+    "delay":1000,
+    "dependencies":[
+        "gallery.js"
+    ],
+    "styles":[
+        "gallery.css"
+    ],
+    "templates":[
+        "pages/gallery/gallery_templates.html"
+    ],
+    "transition":"fade",
+    "delayed":"0",
+    "ambiant":"ambiant_gallery"
+}

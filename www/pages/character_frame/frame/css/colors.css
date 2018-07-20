@@ -1,0 +1,123 @@
+.white{
+    background-color:#FFFFFF;
+    color:#FFFFFF !important;
+}
+.purple{
+    background-color: #612B9B !important; 
+    color:#FFFFFF !important;
+}
+.green{
+    background-color: #44AC34 !important;
+    color:#FFFFFF !important;
+}
+.black{
+    background-color: #000000 !important;
+    color:#FFFFFF !important;
+}
+.orange{
+    background-color: #FF821D !important;
+    color:#FFFFFF !important;
+}
+.yellow{
+    background-color: #FFCF00 !important;
+    color:#FFFFFF !important;
+}
+.pink{
+    background-color: #E41694 !important;
+    color:#FFFFFF !important;
+}
+.blue{
+    background-color: #042367 !important;
+    color:#FFFFFF !important;
+}
+.lighblue{
+    background-color: #33CAD2 !important;
+    color:#FFFFFF !important;
+}
+.red{
+    background-color: #DA0036 !important;
+    color:#FFFFFF !important;
+}
+.grey{
+    background-color: #7D868B !important;
+    color:#FFFFFF !important;
+}
+.sblue{
+    background-color: #465FC4 !important;
+    color:#FFFFFF !important;
+}
+.dgreen{
+    background-color: #008274 !important;
+    color:#FFFFFF !important;
+}
+.grey{
+    background-color: #7D868B !important;
+    color:#FFFFFF !important;
+}
+.maroon{
+    background-color: #784217 !important;
+    color:#FFFFFF !important;
+}
+.fblue{
+    background-color: #0095A7 !important;
+    color:#FFFFFF !important;
+}
+.purple h1, .green h1, .orange h1, .yellow h1, .pink h1, .blue h1, .lightblue h1, .red h1, .grey h1, .sblue h1, .dgreen h1, .marron h1, .fblue h1, .purple p, .green p, .orange p, .yellow p, .pink p, .blue p, .lightblue p, .red p, .grey p, .sblue p, .dgreen p, .marron p, .fblue p{
+    color:#FFF;
+}
+.tpurple{
+    color: #612B9B;   
+    background-color:#FFF;
+}
+.tgreen{
+    color: #44AC34;
+    background-color:#FFF;
+}
+.torange{
+    color: #FF821D;
+    background-color:#FFF;
+}
+.tyellow{
+    color: #FFCF00;
+    background-color:#FFF;
+}
+.tpink{
+    color: #E41694;
+    background-color:#FFF;
+}
+.tblue{
+    color: #042367;
+    background-color:#FFF;
+}
+.tlighblue{
+    color: #33CAD2;
+    background-color:#FFF;
+}
+.tred{
+    color: #DA0036;
+    background-color:#FFF;
+}
+.tgrey{
+    color: #7D868B;
+    background-color:#FFF;
+}
+.tsblue{
+    color: #465FC4;
+    background-color:#FFF;
+}
+.tdgreen{
+    color: #008274;
+    background-color:#FFF;
+}
+.tgrey{
+    color: #7D868B;
+    background-color:#FFF;
+}
+.tmaroon{
+    color: #784217;
+    background-color:#FFF;
+}
+.tfblue{
+    color: #0095A7;
+    background-color:#FFF;
+}

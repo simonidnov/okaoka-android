@@ -1,0 +1,105 @@
+.bubblingG_content{
+    width:100%;
+    height:100%;
+    position: fixed;
+    z-index: 999999;
+    background-color: rgba(255,255,255,.5);
+    top:0;
+    left:0;
+}
+.bubblingG {
+	text-align: center;
+	width:130px;
+	height:49px;
+	margin: auto;
+    position: absolute;
+    left:0;
+    right:0;
+    top:0;
+    bottom:0;
+    margin:auto;
+}
+
+.bubblingG span {
+	display: inline-block;
+	vertical-align: middle;
+	width: 30px;
+	height: 30px;
+	margin: 34px auto;
+	background: #44AC34;
+	border-radius: 49px;
+		-o-border-radius: 49px;
+		-ms-border-radius: 49px;
+		-webkit-border-radius: 49px;
+		-moz-border-radius: 49px;
+	animation: bubblingG 0.455s infinite alternate;
+		-o-animation: bubblingG 0.455s infinite alternate;
+		-ms-animation: bubblingG 0.455s infinite alternate;
+		-webkit-animation: bubblingG 0.455s infinite alternate;
+		-moz-animation: bubblingG 0.455s infinite alternate;
+}
+
+#bubblingG_1 {
+	animation-delay: 0s;
+		-o-animation-delay: 0s;
+		-ms-animation-delay: 0s;
+		-webkit-animation-delay: 0s;
+		-moz-animation-delay: 0s;
+}
+
+#bubblingG_2 {
+	animation-delay: 0.1395s;
+		-o-animation-delay: 0.1395s;
+		-ms-animation-delay: 0.1395s;
+		-webkit-animation-delay: 0.1395s;
+		-moz-animation-delay: 0.1395s;
+}
+
+#bubblingG_3 {
+	animation-delay: 0.269s;
+		-o-animation-delay: 0.269s;
+		-ms-animation-delay: 0.269s;
+		-webkit-animation-delay: 0.269s;
+		-moz-animation-delay: 0.269s;
+}
+
+
+
+@keyframes bubblingG {
+	0% {
+		transform: scale(.5);
+	}
+
+	100% {
+		transform: scale(1);
+	}
+}
+
+@-o-keyframes bubblingG {
+	0% {
+		-o-transform: scale(.5);
+	}
+
+	100% {
+		-o-transform: scale(1);
+	}
+}
+@-webkit-keyframes bubblingG {
+	0% {
+		-webkit-transform: scale(0.5);
+	}
+
+	100% {
+		-webkit-transform: scale(1);
+	}
+}
+
+@-moz-keyframes bubblingG {
+	0% {
+		-moz-transform: scale(0.5);
+	}
+
+	100% {
+		-moz-transform: scale(1);
+	}
+}

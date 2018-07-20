@@ -1,0 +1,13 @@
+{
+    "name":"draw",
+    "script":"draw",
+    "content":"draw.html",
+    "dependencies":[
+        "draw.js"
+    ],
+    "styles":[
+        "draw.css"
+    ],
+    "transition":"flip",
+    "delayed":"1000"
+}

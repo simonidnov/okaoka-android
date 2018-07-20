@@ -1,0 +1,13 @@
+{
+    "name":"character",
+    "script":"character",
+    "content":"character.html",
+    "dependencies":[
+        "character.js"
+    ],
+    "styles":[
+        "character.css"
+    ],
+    "transition":"fade",
+    "delayed":"0"
+}

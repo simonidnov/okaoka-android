@@ -1,0 +1,14 @@
+{
+  "name": "EaselJSRenderers",
+  "homepage": "https://github.com/CreateJS/EaselJSRenderers",
+  "_release": "6502d49645",
+  "_resolution": {
+    "type": "branch",
+    "branch": "master",
+    "commit": "6502d496458282b9217b866c0324509efbc6e23d"
+  },
+  "_source": "https://github.com/CreateJS/EaselJSRenderers.git",
+  "_target": "*",
+  "_originalSource": "https://github.com/CreateJS/EaselJSRenderers.git",
+  "_direct": true
+}

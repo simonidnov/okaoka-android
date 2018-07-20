@@ -1,0 +1,56 @@
+.save{
+    width:100%;
+    height:100%;
+    overflow: hidden;
+}
+.save .img_preview{
+    width: 100%;
+    height: 100%;
+    min-height: 150px;
+    background-size: auto 100%;
+    background-position: center center;
+    background-repeat: no-repeat;
+    position: relative;
+}
+#save_canvas{
+    position: relative !important;
+}
+.form{
+    position: relative;
+    display: table !important;
+    width: 100%;
+    height: 75px;
+}
+.save .bubble{
+    padding:20px;
+    border-radius: 10px;
+}
+.save .bubble{
+    font-size: 17px;
+    color: #333333;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0px;
+    margin: auto;
+    max-width: 300px;
+    display: table;
+}
+.save .bubble.topping{
+    bottom:-10px;
+}
+.save .bubble .arrow{
+    position: absolute;
+    top: -15px;
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 15px 0 0 15px;
+    border-color: transparent transparent transparent #612B9B;
+}
+.save .bubble .arrow.agreen{
+    border-color: transparent transparent transparent #44AC34;
+}
+.save .bubble .arrow.asky{
+    border-color: transparent transparent transparent #33CAD2;
+}

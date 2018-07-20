@@ -1,0 +1,99 @@
+.draw, .canvas{
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    -ms-transform: translate3d(0,0,0);
+    -webkit-transform: translate3d(0,0,0);
+    transform: translate3d(0,0,0) perspective( 5000px );
+    transform-origin: 50% 50%;
+}
+.brushes{
+    position: absolute;
+    top:0;
+    right:0;
+    display: none;
+    width:140px;
+}
+.brushes ul{
+    margin:0;
+    padding: 0;
+}
+.brushes ul li{
+    width:80px;
+    height:80px;
+    list-style: none;
+    cursor: pointer;
+    position: relative;
+    float: right;
+    opacity: .6;
+    -webkit-transition: all .2s ease-in;
+    -moz-transition: all .2s ease-in;
+    -o-transition: all .2s ease-in;
+    transition: all .2s ease-in;
+}
+.brushes ul li:hover, .brushes ul li:active{
+    width:120px;
+    height:120px;
+    opacity: 1;
+}
+.brushes ul li.active{
+    width:100px;
+    height:100px;
+    opacity: 1;
+}
+.brushes ul li img{
+    width: 100%;
+    position: absolute;
+    top:0;
+    bottom:0;
+    right:0;
+}
+
+
+.prev_next_clear{
+    position: absolute;
+    bottom:0;
+    left:0;
+    right:0;
+    margin:auto;
+    /*display: table;*/
+    width: 300px;
+    display: none;
+}
+.prev_next_clear ul{
+    margin:0;
+    padding:0;
+    position: relative;
+}
+.prev_next_clear ul li{
+    width: 60px;
+    height: 50px;
+    margin:0;
+    padding:0;
+    list-style: none;
+    float: left;
+    position: relative;
+    -webkit-transition: all .2s ease-in;
+    -moz-transition: all .2s ease-in;
+    -o-transition: all .2s ease-in;
+    transition: all .2s ease-in;
+    cursor: pointer;
+}
+.prev_next_clear ul li img{
+    height: 100%;
+    position: absolute;
+    left:0;
+    bottom:0;
+    right:0;
+}
+.prev_next_clear ul li:hover, .brushes ul li:active{
+    width:60px;
+    height:50px;
+    opacity: 1;
+    top:0;
+}
+.prev_next_clear ul li.active{
+    width:60px;
+    height:50px;
+    opacity: 1;
+    top:0;
+}

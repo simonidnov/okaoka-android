@@ -1,0 +1,16 @@
+{
+    "name":"informations",
+    "script":"informations_page",
+    "content":"informations.html",
+    "dependencies":[
+        "informations.js"
+    ],
+    "styles":[
+        "informations.css"
+    ],
+    "templates":[
+        "pages/default/informations_templates.html"
+    ],
+    "transition":"fade",
+    "delayed":"0"
+}

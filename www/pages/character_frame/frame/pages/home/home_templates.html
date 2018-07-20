@@ -1,0 +1,9 @@
+<script type="text/template" id="home_template">
+    <li class="home_list" id="character_<%= i %>" data-id="<%= id %>">
+        <div class="home_pix_preview" style="background-image:url(<%= encodeURI(app.pix_to_uri(base64, "thumb")) %>) "></div>
+        <!--<img src="<%= app.pix_to_uri(base64, "thumb") %>"/>-->
+        <!--<canvas id="canvas_<%= i %>" width="250" height="320"/>-->
+        <div class="label"><%= label %></div>
+        <div class="age"><%= age %></div>
+    </li>
+</script>

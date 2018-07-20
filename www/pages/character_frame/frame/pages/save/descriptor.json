@@ -1,0 +1,16 @@
+{
+    "name":"save",
+    "script":"save_page",
+    "content":"save.html",
+    "dependencies":[
+        "save.js"
+    ],
+    "styles":[
+        "save.css"
+    ],
+    "templates":[
+        "pages/save/save_templates.html"
+    ],
+    "transition":"left",
+    "delayed":"0"
+}

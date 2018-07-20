@@ -1,0 +1,16 @@
+{
+    "label":"drawing",
+    "version":"0.0.0",
+    "color":"orange",
+    "dependencies":["drawing.js", "motion/drawing_motion.js"],
+    "styles":["drawing.css"],
+    "content":"drawing.html",
+    "script_name":"drawing",
+    "motion":"drawing_motion",
+    "motion_sound":"drawing_intro",
+    "sounds":[
+        {"label":"drawing_intro", "file":"./sounds/drawing_intro.ogg"},
+        {"label":"drawing_hit", "file":"./sounds/draw_hit.ogg"},
+        {"label":"drawing_ambiance", "file":"./sounds/draw_ambiance.ogg"}
+    ]
+}

@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<!--
+    Licensed to the Apache Software Foundation (ASF) under one
+    or more contributor license agreements.  See the NOTICE file
+    distributed with this work for additional information
+    regarding copyright ownership.  The ASF licenses this file
+    to you under the Apache License, Version 2.0 (the
+    "License"); you may not use this file except in compliance
+    with the License.  You may obtain a copy of the License at
+
+    http://www.apache.org/licenses/LICENSE-2.0
+
+    Unless required by applicable law or agreed to in writing,
+    software distributed under the License is distributed on an
+    "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
+     KIND, either express or implied.  See the License for the
+    specific language governing permissions and limitations
+    under the License.
+-->
+<html>
+    <head>
+        <!--
+        Customize this policy to fit your own app's needs. For more guidance, see:
+            https://github.com/apache/cordova-plugin-whitelist/blob/master/README.md#content-security-policy
+        Some notes:
+            * gap: is required only on iOS (when using UIWebView) and is needed for JS->native communication
+            * https://ssl.gstatic.com is required only on Android and is needed for TalkBack to function properly
+            * Disables use of inline scripts in order to mitigate risk of XSS vulnerabilities. To change this:
+                * Enable inline JS: add 'unsafe-inline' to default-src
+        -->
+        <!--<meta http-equiv="Content-Security-Policy" content="script-src * 'unsafe-eval' 'unsafe-inline'; connect-src * 'unsafe-eval'; object-src *; style-src * 'unsafe-inline'; img-src 'self' data:;">-->
+        <!--<meta http-equiv="Content-Security-Policy" content="img-src 'self' data:; default-src 'self' http://XX.XX.XX.XX:8084/mypp/">-->
+
+        <!--<meta http-equiv="Content-Security-Policy" content="default-src 'self' data: gap: https://ssl.gstatic.com 'unsafe-eval'; style-src 'self' 'unsafe-inline'; media-src *">-->
+        <meta name="format-detection" content="telephone=no">
+        <meta name="msapplication-tap-highlight" content="no">
+        <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width">
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+        <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+        <link rel="stylesheet" type="text/css" href="css/index.css">
+        <link rel="stylesheet" type="text/css" href="css/colors.min.css">
+        <link rel="stylesheet" type="text/css" href="css/parental_control.min.css">
+        <link rel="stylesheet" type="text/css" href="js/css_loader/css_loader.min.css">
+        <link rel="stylesheet" type="text/css" href="css/nse_global.min.css">
+        <link rel="stylesheet" type="text/css" href="js/easy_keyboard/easy_keyboard.min.css">
+        <link rel="stylesheet" type="text/css" href="js/fake_input/fake_input.css">
+        <link rel="stylesheet" type="text/css" href="css/_UI.css">
+        <link rel="stylesheet" type="text/css" href="js/popup/popup.min.css">
+        <link rel="stylesheet" type="text/css" href="js/number_picker/number_picker.min.css">
+        <script type="text/javascript" src="js/libs/bower_components/iscroll/build/iscroll-probe.min.js"></script>
+        <script type="text/javascript" src="js/libs/bower_components/jquery/dist/jquery.min.js"></script>
+        <script type="text/javascript" src="cordova.js"></script>
+        <title>NSE | IDKIDS</title>
+    </head>
+    <body>
+        <!--<div class="app">
+            <h1>Apache Cordova</h1>
+            <div id="deviceready" class="blink">
+                <p class="event listening">Connecting to Device</p>
+                <p class="event received">Device is Ready</p>
+            </div>
+        </div>-->
+        <canvas class="default_nav_button" id="default_nav_button"></canvas>
+        <div class="close_button" id="global_close_button">
+            <img src="images/assets/nav/nav_buttons_close_button_white.svg"/>
+        </div>
+        
+           
+           
+        <div class="navigation_blocks">
+            <div id="nav_button_1" class="block topLeft" style="background-color:#935BA2;" data-navigate="home" data-transition="right">
+                <div class="icon">
+                    <img src="images/assets/nav/home_nav_button.svg"/>
+                </div>
+                <span class="bcenter" data-text="HOME">Accueil</span>
+            </div>
+            <div id="nav_button_2" class="block topRight" style="background-color:#EEC434;" data-navigate="user_gallery/mode/private" data-transition="left">
+                <div class="icon">
+                    <img src="images/assets/nav/nav_user_gallery.svg"/>
+                </div>
+                <span class="bcenter" data-text="GALLERY">Mes Personnages</span>
+            </div>
+            <div id="nav_button_3" class="block" style="background-color:#27AE5F;" data-navigate="gallery" data-transition="left">
+                <div class="icon">
+                    <img src="images/assets/nav/nav_buttons_gallery_button_white.svg"/>
+                </div>
+                <span data-text="GALLERY_BUTTON">Gallerie</span>
+            </div>
+            <div id="nav_button_4" class="block" style="background-color:#35495E;">
+                <div class="icon">
+                    <img src="images/assets/nav/nav_buttons_setting_button_white.svg"/>
+                </div>
+                <span data-text="SETTINGS">Paramètres</span>
+            </div>
+            <div id="nav_button_5" class="block" style="background-color:#3E97D0;" data-navigate="informations" data-transition="left">
+                <div class="icon">
+                    <img src="images/assets/nav/nav_buttons_information_button_white.svg"/>
+                </div>
+                <span data-text="INFOS">Informations</span>
+            </div>
+            
+            
+            <div class="setting_button fifty" id="setting_sound" style="background-color:#ff5a5e;" data-active="true" data-off="images/assets/nav/subnav_audio_off.svg" data-on="images/assets/nav/subnav_audio_on.svg">
+                <div class="icon">
+                    <img src="images/assets/nav/subnav_audio_on.svg"/>
+                </div>
+                <div class="label" data-text="SETTING_SOUND">Sons</div>
+            </div>
+            <div class="setting_button fifty" id="setting_music" style="background-color:#ff6f6c;" data-active="true" data-off="images/assets/nav/subnav_music_off.svg" data-on="images/assets/nav/subnav_music_on.svg">
+                <div class="icon">
+                    <img src="images/assets/nav/subnav_music_on.svg"/>
+                </div>
+                <div class="label" data-text="SETTING_MUSIC">Musique</div>
+            </div>
+            <div class="setting_button fifty" id="setting_voice" style="background-color:#ff7873;" data-active="true" data-off="images/assets/nav/subnav_voice_off.svg" data-on="images/assets/nav/subnav_voice_on.svg">
+                <div class="icon">
+                    <img src="images/assets/nav/subnav_voice_on.svg"/>
+                </div>
+                <div class="label" data-text="SETTING_VOICE">AIDE VOCALE</div>
+            </div>
+            <div class="setting_button fifty" id="setting_lang" style="background-color:#ff817b;">
+                <div class="setting_lang_picker" id="setting_lang_wrapper">
+                    <ul id="setting_lang_scroller">
+                        <li class="flag_item selected" data-locale="fr-FR">
+                            <div class="selector" style="background-image: url(images/assets/nav/nav_buttons_rules_slide_04.svg);"></div>
+                            <div class="flag">
+                                <img src="images/assets/nav/nav_buttons_french_flag.svg"/>
+                            </div>
+                            <div class="label">Français</div>
+                        </li>
+                        <li class="flag_item" data-locale="en-US">
+                            <div class="selector" style="background-image: url(images/assets/nav/nav_buttons_rules_slide_04.svg);"></div>
+                            <div class="flag">
+                                <img src="images/assets/nav/nav_buttons_english_flag.svg"/>
+                            </div>
+                            <div class="label">English</div>
+                        </li>
+                        <li class="flag_item" data-locale="de-DE">
+                            <div class="selector" style="background-image: url(images/assets/nav/nav_buttons_rules_slide_04.svg);"></div>
+                            <div class="flag">
+                                <img src="images/assets/nav/nav_buttons_deutsch_flag.svg"/>
+                            </div>
+                            <div class="label">Deutsch</div>
+                        </li>
+                        <li class="flag_item" data-locale="es_ES">
+                            <div class="selector" style="background-image: url(images/assets/nav/nav_buttons_rules_slide_04.svg);"></div>
+                            <div class="flag">
+                                <img src="images/assets/nav/nav_buttons_spanish_flag.svg"/>
+                            </div>
+                            <div class="label">Española</div>
+                        </li>
+                    </ul>
+                </div>
+                <div class="setting_lang_dots">
+                    <div class="dot selected"></div>
+                    <div class="dot"></div>
+                    <div class="dot"></div>
+                    <div class="dot"></div>
+                </div>
+                <div class="label" data-text="SETTING_LANG">LANGUE</div>
+            </div>
+        </div>
+        <div class="app">
+            <div class="screen">
+                <div class="splash"></div>
+            </div>
+        </div>
+        <div id="content_templates"></div>
+        <footer>
+            <script type="text/javascript" src="js/css_loader/css_loader.min.js"></script>
+            <script type="text/javascript" src="js/utilities/ajax_request.js"></script>
+            <script type="text/javascript" src="js/libs/createjs.min.js"></script>
+            <script type="text/javascript" src="js/SoundJS-0.6.2/src/soundjs/cordovaaudio/CordovaAudioLoader.js"></script>
+            <script type="text/javascript" src="js/SoundJS-0.6.2/src/soundjs/cordovaaudio/CordovaAudioPlugin.js"></script>
+            <script type="text/javascript" src="js/SoundJS-0.6.2/src/soundjs/cordovaaudio/CordovaAudioSoundInstance.js"></script>
+            <script type="text/javascript" src="js/libs/bower_components/canvas2svg/canvas2svg.js"></script>
+            <script type="text/javascript" src="js/libs/bower_components/EaselJS/lib/easeljs-0.8.2.combined.js"></script>
+            <script type="text/javascript" src="js/libs/bower_components/PreloadJS/lib/preloadjs-0.6.2.combined.js"></script>
+            <script type="text/javascript" src="js/libs/bower_components/underscore/underscore-min.js"></script>
+            <script type="text/javascript" src="images/character/hairs/hair_assets.js"></script>
+            <script type="text/javascript" src="images/character/tops/tops_assets.js"></script>
+            <script type="text/javascript" src="images/character/hands_assets.js"></script>
+            <script type="text/javascript" src="images/character/shoes_assets.js"></script>
+            <script type="text/javascript" src="images/character/hairs/backhair_assets.js"></script>
+            <script type="text/javascript" src="images/character/faces/barbes_assets.js"></script>
+            <script type="text/javascript" src="images/character/faces/face_assets.js"></script>
+            <script type="text/javascript" src="images/character/faces/accessories_assets.js"></script>
+            <script type="text/javascript" src="images/assets/nav_button.js"></script>
+            <script type="text/javascript" src="js/libs/bower_components/gsap/src/minified/TweenMax.min.js"></script>
+            <script type="text/javascript" src="js/libs/bower_components/gsap/src/minified/TweenLite.min.js"></script>
+            <script type="text/javascript" src="js/libs/bower_components/gsap/src/minified/utils/Draggable.min.js"></script>
+            <script type="text/javascript" src="js/libs/bower_components/gsap/src/minified/plugins/EaselPlugin.min.js"></script>
+            <script type="text/javascript" src="js/libs/bower_components/gsap/src/minified/plugins/AttrPlugin.min.js"></script>
+            <script type="text/javascript" src="js/libs/bower_components/gsap/src/minified/plugins/RoundPropsPlugin.min.js"></script>
+            <script type="text/javascript" src="js/libs/bower_components/gsap/src/minified/plugins/ScrollToPlugin.min.js"></script>
+            <script type="text/javascript" src="js/libs/bower_components/gsap/src/minified/plugins/CSSPlugin.min.js"></script>
+            <script type="text/javascript" src="js/libs/bower_components/gsap/src/minified/plugins/CSSRulePlugin.min.js"></script>
+            <script type="text/javascript" src="js/libs/bower_components/gsap/src/minified/plugins/ColorPropsPlugin.min.js"></script>
+            <script type="text/javascript" src="js/libs/bower_components/gsap/src/minified/plugins/throwpropsplugin/throwpropsplugin.min.js"></script>
+            
+            <script type="text/javascript" src="js/libs/bower_components/backbone/backbone-min.js"></script>
+            <script type="text/javascript" src="js/navigation.js"></script>
+            <script type="text/javascript" src="js/utilities/svgExporter.min.js"></script>
+            <!--<script type="text/javascript" src="pages/character/character.js"></script>-->
+            <script type="text/javascript" src="js/easy_keyboard/easy_keyboard.js"></script>
+            <script type="text/javascript" src="js/fake_input/fake_input.min.js"></script>
+            <script type="text/javascript" src="js/number_picker/number_picker.min.js"></script>
+            <script type="text/javascript" src="js/utilities/_UI.js"></script>
+            <script type="text/javascript" src="js/popup/popup.js"></script>
+            <script type="text/javascript" src="js/bower_components/randomcolor/randomColor.js"></script>
+            <script type="text/javascript" src="images/assets/nav/circle_buttons.js"></script>
+            
+            <!-- GIT TEST #1 -->
+            <script type="text/javascript" src="js/libs/jsgif-master/LZWEncoder.js"></script>
+            <script type="text/javascript" src="js/libs/jsgif-master/NeuQuant.js"></script>
+            <script type="text/javascript" src="js/libs/jsgif-master/GIFEncoder.js"></script>
+            <script type="text/javascript" src="js/libs/jsgif-master/b64.js"></script>
+            
+            <script type="text/javascript" src="js/helpers/gif_creator.js"></script>
+            
+            <!-- GIF TEST #2 -->
+            <script type="text/javascript" src="js/libs/gifshot-master/build/gifshot.min.js"></script>
+            <script type="text/javascript" src="js/helpers/gifshot_creator.js"></script>
+            <script type="text/javascript" src="js/helpers/auth_helper.js"></script>
+            <script type="text/javascript" src="js/helpers/characters_helper.js"></script>
+            <script type="text/javascript" src="js/helpers/parental_control.min.js"></script>
+            
+            <script type="text/javascript" src="js/helpers/paypal_helper.min.js"></script>
+            <script type="text/javascript" src="js/helpers/paypal_config.js"></script>
+            <script type="text/javascript" src="js/languages.min.js"></script>
+            <script type="text/javascript" src="js/libs/createjs_particles/particles.min.js"></script>
+            <script type="text/javascript" src="js/helpers/stickers_helper.js"></script>
+            
+        </footer>
+        <div id="ui_templates"></div>
+<script type="text/template" id="toast_template">
+    <div class="toast <%= color %>">
+        <div class="title"><%= title %></div>
+        <div class="message"><%= message %></div>
+        <div class="cross_button <%= color %>">
+            <span class="icon cross"></span>
+        </div>
+    </div>
+</script>
+<script type="text/template" id="badge_template">
+    <div class="badge <%= color %>">
+        <div class="title"><%= title %>
+        <div class="motion_content"></div>
+        <div class="message"><%= message %></div>
+        <div class="cross_button">
+            <span class="icon cross"></span>
+        </div>
+        <div class="share_button <%= color %>">
+            <span class="icon share"></span>
+            <div class="label"><%= lang['SHARE_BUTTON'] %></div>
+        </div>
+    </div>
+</script>
+    </body>
+</html>

@@ -1,0 +1,28 @@
+{
+  "name": "canvas2svg",
+  "main": "canvas2svg.js",
+  "version": "0.0.1",
+  "homepage": "https://github.com/moneybird/canvas2svg",
+  "authors": [
+    "Elian Krosse <elian@moneybird.com>"
+  ],
+  "keywords": [
+    "canvas",
+    "svg"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "jasmine-tests"
+  ],
+  "_release": "0.0.1",
+  "_resolution": {
+    "type": "version",
+    "tag": "v0.0.1",
+    "commit": "972faea17e15cc6835fefde4b4279954d631d467"
+  },
+  "_source": "https://github.com/moneybird/canvas2svg.git",
+  "_target": "^0.0.1",
+  "_originalSource": "canvas2svg",
+  "_direct": true
+}

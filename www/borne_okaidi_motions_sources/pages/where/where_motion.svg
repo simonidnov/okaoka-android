@@ -1,0 +1,64 @@
+
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" preserveAspectRatio="none" x="0px" y="0px" width="900px" height="400px" viewBox="0 0 900 400">
+<defs>
+<g id="crayon_blanc_142_Layer3_0_FILL">
+<path fill="#000000" fill-opacity="0.00392156862745098" stroke="none" d="
+M -6.15 -22.25
+Q -5.45 -22.95 -5.45 -23.95 -5.45 -24.05 -5.45 -24.15 -5.55 -23.15 -6.25 -22.45 -7 -21.6 -8.1 -21.6 -8.3 -21.6 -8.45 -21.6 -8.2 -21.55 -7.85 -21.55 -6.85 -21.55 -6.15 -22.25 Z"/>
+
+<path fill="#FFFFFF" stroke="none" d="
+M -8.1 -26.95
+Q -9.2 -26.95 -10.05 -26.2 -10.8 -25.45 -10.8 -24.35 -10.8 -24.299609375 -10.8 -24.25 -10.765625 -23.21328125 -10.05 -22.45 -9.35 -21.75 -8.45 -21.6 -8.3 -21.6 -8.1 -21.6 -7 -21.6 -6.25 -22.45 -5.55 -23.15 -5.45 -24.15 -5.45 -24.2 -5.45 -24.25 -5.45 -24.3 -5.45 -24.35 -5.45 -25.45 -6.25 -26.2 -7 -26.95 -8.1 -26.95
+M 4.7 -26.95
+Q 3.6 -26.95 2.75 -26.2 2 -25.45 2 -24.35 2 -24.299609375 2 -24.25 2.034375 -23.21328125 2.75 -22.45 3.45 -21.75 4.35 -21.6 4.5 -21.6 4.7 -21.6 5.8 -21.6 6.55 -22.45 7.25 -23.15 7.35 -24.15 7.35 -24.2 7.35 -24.25 7.35 -24.3 7.35 -24.35 7.35 -25.45 6.55 -26.2 5.8 -26.95 4.7 -26.95 Z"/>
+</g>
+
+<path id="crayonok_0_Layer0_0_1_STROKES" stroke="#FFFFFF" stroke-width="5" stroke-linejoin="round" stroke-linecap="round" fill="none" d="
+M 0.9 42.3
+Q 0 41.45 0 40
+L 0 13.15
+Q 0 10.7 1.75 8.9 3.55 7.15 6 7.15
+L 16.5 7.15
+Q 19 7.15 20.75 8.9 22.5 10.7 22.5 13.15
+L 22.5 40
+Q 22.5 41.0201171875 22.075 41.75 21.901953125 42.048046875 21.65 42.3
+L 11.25 55.95 0.9 42.3
+Q 1.8 43.2 3 43.2
+L 19.5 43.2
+Q 20.75 43.2 21.65 42.3"/>
+
+<path id="crayon_blanc_142_Layer4_0_1_STROKES" stroke="#FFFFFF" stroke-width="5" stroke-linejoin="miter" stroke-linecap="round" stroke-miterlimit="10" fill="none" d="
+M 17.8 -51.65
+Q 18.77109375 -50.8234375 19.7 -49.9 28.2 -41.4 28.2 -29.35 28.2 -17.35 19.7 -8.85 11.2 -0.35 -0.8 -0.35 -12.8 -0.35 -21.3 -8.85 -29.8 -17.35 -29.8 -29.4 -29.8 -41.4 -21.3 -49.9 -12.8 -58.35 -0.8 -58.35 1.3302734375 -58.35 3.35 -58.075"/>
+
+<path id="crayon_blanc_142_Layer3_0_1_STROKES" stroke="#FFFFFF" stroke-width="5" stroke-linejoin="miter" stroke-linecap="round" stroke-miterlimit="10" fill="none" d="
+M 8.6 -16.95
+Q 3.7900390625 -15 -1.85 -15 -7.8322265625 -15 -12.9 -17.2"/>
+
+<path id="crayon_blanc_142_Layer2_0_1_STROKES" stroke="#FFFFFF" stroke-width="5" stroke-linejoin="miter" stroke-linecap="round" stroke-miterlimit="10" fill="none" d="
+M -29.2 -23.4
+Q -3.157421875 -29.032421875 3.275 -50.7"/>
+</defs>
+
+<g transform="matrix( 3.1725311279296875, 0, 0, 3.1725311279296875, 439.7,286.9) ">
+<g transform="matrix( 0.6360321044921875, 0.7165069580078125, -0.7165069580078125, 0.6360321044921875, 35.8,-95.25) ">
+<g transform="matrix( 1, 0, 0, 1, 0,0) ">
+<use xlink:href="#crayonok_0_Layer0_0_1_STROKES"/>
+</g>
+</g>
+
+<g transform="matrix( 1, 0, 0, 1, 0,0) ">
+<use xlink:href="#crayon_blanc_142_Layer4_0_1_STROKES"/>
+</g>
+
+<g transform="matrix( 1, 0, 0, 1, 0,0) ">
+<use xlink:href="#crayon_blanc_142_Layer3_0_FILL"/>
+
+<use xlink:href="#crayon_blanc_142_Layer3_0_1_STROKES"/>
+</g>
+
+<g transform="matrix( 1, 0, 0, 1, 0,0) ">
+<use xlink:href="#crayon_blanc_142_Layer2_0_1_STROKES"/>
+</g>
+</g>
+</svg>

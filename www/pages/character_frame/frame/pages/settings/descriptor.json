@@ -1,0 +1,16 @@
+{
+    "name":"settings",
+    "script":"settings_page",
+    "content":"settings.html",
+    "dependencies":[
+        "settings.js"
+    ],
+    "styles":[
+        "settings.css"
+    ],
+    "templates":[
+        "pages/default/settings_templates.html"
+    ],
+    "transition":"fade",
+    "delayed":"0"
+}

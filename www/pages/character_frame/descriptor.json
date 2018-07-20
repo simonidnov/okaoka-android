@@ -1,0 +1,18 @@
+{
+    "label":"character_frame",
+    "version":"0.0.0",
+    "color":"purple",
+    "dependencies":[ 
+        "character_frame.js",
+        "motion/popup_character_motion.js",
+        "motion/characterframe_motion.js"
+    ],
+    "styles":["character_frame.css"],
+    "content":"character_frame.html",
+    "script_name":"character_frame",
+    "motion":"characterframe_motion",
+    "motion_sound":"run_intro",
+    "sounds":[
+        {"label":"run_intro", "file":"./sounds/run_intro.ogg"}
+    ]
+}
